@@ -22,11 +22,23 @@ export class Bird extends Physics.Arcade.Image {
   }
 
   update(): void {
-    this.params.scene.input.on("pointerup", () => {
+    this.params.scene.input.on(
+      "pointerup",
+      () => {
         this.setVelocityY(-200);
-      }, this);
+        this.params.scene.sound.add("wing", {
+          loop: false,
+          volume: 0.5,
+        });
+      },
+      this,
+    );
     if (this.cursor?.space.isDown || this.cursor?.up.isDown) {
       this.setVelocityY(-200);
+      this.params.scene.sound.add("wing", {
+          loop: false,
+          volume: 0.5,
+        });
     }
   }
 

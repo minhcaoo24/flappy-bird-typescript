@@ -33,6 +33,13 @@ export class Preloader extends Scene {
     this.load.image('gameover', 'gameover.png');
 
     this.load.image('pipe-green', 'pipe-green.png');
+
+    /* Sounds */
+    this.load.audio('die', 'audio/die.ogg');
+    this.load.audio('hit', 'audio/hit.ogg');
+    this.load.audio('point', 'audio/point.ogg');
+    this.load.audio('swoosh', 'audio/swoosh.ogg');
+    this.load.audio('wing', 'audio/wing.ogg');
   }
 
   create() {
