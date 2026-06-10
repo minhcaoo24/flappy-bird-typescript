@@ -52,13 +52,11 @@ Control the bird and navigate through an endless series of pipes.
 
 > Add gameplay screenshots or GIFs here.
 
-```md
 ![Gameplay 1](./Screenshot1.png)
 
 ![Gameplay 2](./Screenshot2.png)
 
 ![Gameplay 3](./Screenshot3.png)
-```
 
 ---
 
