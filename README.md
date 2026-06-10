@@ -50,8 +50,6 @@ Control the bird and navigate through an endless series of pipes.
 
 ## 📸 Preview
 
-> Add gameplay screenshots or GIFs here.
-
 ![Gameplay 1](./Screenshot1.png)
 
 ![Gameplay 2](./Screenshot2.png)
