@@ -31,15 +31,20 @@ Control the bird and navigate through an endless series of pipes.
 
 ## ✨ Features
 
-* Built with Phaser 3
-* Written in TypeScript
-* Powered by Vite
-* Arcade Physics integration
-* Infinite procedural pipe spawning
-* Object Pooling for better performance
-* Scene-based architecture
-* Responsive game loop
-* Clean and maintainable code structure
+* Classic Flappy Bird gameplay
+* Smooth bird physics using Phaser Arcade Physics
+* Procedurally generated pipe obstacles
+* Score tracking system
+* Point detection using invisible trigger zones
+* Sound effects:
+* Wing flap
+* Point scored
+* Pipe swoosh
+* Hit
+* Die
+* Object pooling for efficient pipe management
+* Written entirely in TypeScript
+* Fast development environment powered by Vite
 
 ---
 
@@ -63,7 +68,8 @@ src/
 └── vite-env.d.ts
 
 public/
-└── assets/
+├── assets/
+└── assets/audio
 
 vite/
 ├── config.dev.mjs
