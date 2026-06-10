@@ -53,7 +53,9 @@ Control the bird and navigate through an endless series of pipes.
 > Add gameplay screenshots or GIFs here.
 
 ```md
-![Gameplay](./docs/gameplay.gif)
+https://vscode.dev/github/minhcaoo24/flappy-bird-typescript/blob/main/Screenshot1.png
+https://vscode.dev/github/minhcaoo24/flappy-bird-typescript/blob/main/Screenshot2.png
+https://vscode.dev/github/minhcaoo24/flappy-bird-typescript/blob/main/Screenshot3.png
 ```
 
 ---
